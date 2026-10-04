@@ -7,6 +7,7 @@ Kho lưu trữ lời giải các bài tập LeetCode được cài đặt bằng
 | # | Tiêu đề | Chủ đề | Độ khó | Lời giải | Kiểm thử |
 | :---: | :--- | :--- | :---: | :---: | :---: |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash Table | Easy | [Go](Array/0001_two_sum.go) | [Test](Array/0001_two_sum_test.go) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | String | Easy | [Go](String/0014_longest_common_prefix.go) | [Test](String/0014_longest_common_prefix_test.go) |
 
 ## Hướng dẫn chạy kiểm thử
 
