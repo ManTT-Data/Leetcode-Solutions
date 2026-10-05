@@ -4,26 +4,29 @@ package array
 // Difficulty: Easy
 // Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 //
-// Time Complexity: O(n) - Duyệt qua mảng giá đúng một lần duy nhất.
-// Space Complexity: O(1) - Chỉ sử dụng hai biến phụ minPrice và maxProfit.
+// Time Complexity: O(n) - Duyệt qua mảng giá đúng một lần với hai con trỏ (Two Pointers / Sliding Window).
+// Space Complexity: O(1) - Chỉ sử dụng bộ nhớ cố định cho các con trỏ và biến lưu kết quả.
 
-// maxProfit tính lợi nhuận lớn nhất có thể đạt được bằng cách mua ở một ngày và bán ở một ngày tương lai.
+// maxProfit tính lợi nhuận lớn nhất có thể đạt được theo hướng tiếp cận Two Pointers (Kỹ thuật hai con trỏ / Cửa sổ trượt).
+// - Con trỏ `left` đại diện cho ngày mua (điểm giá thấp tiềm năng).
+// - Con trỏ `right` đại diện cho ngày bán (duyệt tới tương lai).
 func maxProfit(prices []int) int {
-	if len(prices) == 0 {
-		return 0
-	}
-
-	minPrice := prices[0]
+	left, right := 0, 1
 	maxProfit := 0
 
-	for _, price := range prices[1:] {
-		if price < minPrice {
-			// Cập nhật giá mua thấp nhất tìm thấy cho đến thời điểm hiện tại
-			minPrice = price
-		} else if profit := price - minPrice; profit > maxProfit {
-			// Bán tại ngày hôm nay nếu lợi nhuận cao hơn mức cao nhất từng đạt
-			maxProfit = profit
+	for right < len(prices) {
+		if prices[left] < prices[right] {
+			// Có lãi khi mua ở ngày left và bán ở ngày right
+			profit := prices[right] - prices[left]
+			if profit > maxProfit {
+				maxProfit = profit
+			}
+		} else {
+			// prices[right] <= prices[left]: tìm thấy ngày mua có giá rẻ hơn!
+			// Dịch con trỏ mua sang ngày right
+			left = right
 		}
+		right++
 	}
 
 	return maxProfit
