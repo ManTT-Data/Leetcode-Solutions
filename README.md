@@ -15,6 +15,7 @@ Kho lưu trữ lời giải các bài tập LeetCode được cài đặt bằng
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Array, Binary Search | Medium | [Go](Array/0033_search_in_rotated_sorted_array.go) | [Test](Array/0033_search_in_rotated_sorted_array_test.go) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Array, Matrix, Simulation | Medium | [Go](Array/0054_spiral_matrix.go) | [Test](Array/0054_spiral_matrix_test.go) |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Array, Binary Search | Medium | [Go](Array/0081_search_in_rotated_sorted_array_ii.go) | [Test](Array/0081_search_in_rotated_sorted_array_ii_test.go) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Array, Dynamic Programming | Easy | [Go](Array/0121_best_time_to_buy_and_sell_stock.go) | [Test](Array/0121_best_time_to_buy_and_sell_stock_test.go) |
 
 ## Hướng dẫn chạy kiểm thử
 
