@@ -9,6 +9,7 @@ Kho lưu trữ lời giải các bài tập LeetCode được cài đặt bằng
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash Table | Easy | [Go](Array/0001_two_sum.go) | [Test](Array/0001_two_sum_test.go) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | String | Easy | [Go](String/0014_longest_common_prefix.go) | [Test](String/0014_longest_common_prefix_test.go) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointers | Medium | [Go](Array/0015_three_sum.go) | [Test](Array/0015_three_sum_test.go) |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Array, Two Pointers | Medium | [Go](Array/0016_3sum_closest.go) | [Test](Array/0016_3sum_closest_test.go) |
 
 ## Hướng dẫn chạy kiểm thử
 
