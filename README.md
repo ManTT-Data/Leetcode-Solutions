@@ -13,6 +13,7 @@ Kho lưu trữ lời giải các bài tập LeetCode được cài đặt bằng
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Array, Two Pointers | Medium | [Go](Array/0018_4sum.go) | [Test](Array/0018_4sum_test.go) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Array, Two Pointers | Medium | [Go](Array/0031_next_permutation.go) | [Test](Array/0031_next_permutation_test.go) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Array, Binary Search | Medium | [Go](Array/0033_search_in_rotated_sorted_array.go) | [Test](Array/0033_search_in_rotated_sorted_array_test.go) |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Array, Matrix, Simulation | Medium | [Go](Array/0054_spiral_matrix.go) | [Test](Array/0054_spiral_matrix_test.go) |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Array, Binary Search | Medium | [Go](Array/0081_search_in_rotated_sorted_array_ii.go) | [Test](Array/0081_search_in_rotated_sorted_array_ii_test.go) |
 
 ## Hướng dẫn chạy kiểm thử
