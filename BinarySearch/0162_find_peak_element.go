@@ -1,4 +1,4 @@
-package array
+package binarysearch
 
 // Problem: 162. Find Peak Element
 // Difficulty: Medium

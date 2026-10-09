@@ -1,4 +1,4 @@
-package array
+package binarysearch
 
 // Problem: 81. Search in Rotated Sorted Array II
 // Difficulty: Medium

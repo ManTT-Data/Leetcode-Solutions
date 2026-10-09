@@ -1,4 +1,4 @@
-package array
+package twopointer
 
 // Problem: 977. Squares of a Sorted Array
 // Difficulty: Easy

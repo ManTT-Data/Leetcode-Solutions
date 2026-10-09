@@ -1,4 +1,4 @@
-package array
+package twopointer
 
 // Problem: 31. Next Permutation
 // Difficulty: Medium
