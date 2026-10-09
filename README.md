@@ -17,6 +17,7 @@ Kho lưu trữ lời giải các bài tập LeetCode được cài đặt bằng
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Array, Binary Search | Medium | [Go](Array/0081_search_in_rotated_sorted_array_ii.go) | [Test](Array/0081_search_in_rotated_sorted_array_ii_test.go) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Array, Two Pointers, Dynamic Programming | Easy | [Go](Array/0121_best_time_to_buy_and_sell_stock.go) | [Test](Array/0121_best_time_to_buy_and_sell_stock_test.go) |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Array, Binary Search | Medium | [Go](Array/0153_find_minimum_in_rotated_sorted_array.go) | [Test](Array/0153_find_minimum_in_rotated_sorted_array_test.go) |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Array, Binary Search | Medium | [Go](Array/0162_find_peak_element.go) | [Test](Array/0162_find_peak_element_test.go) |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Array, Two Pointers, Sorting | Easy | [Go](Array/0977_squares_of_a_sorted_array.go) | [Test](Array/0977_squares_of_a_sorted_array_test.go) |
 
 ## Hướng dẫn chạy kiểm thử
