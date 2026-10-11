@@ -11,6 +11,7 @@ Kho lưu trữ lời giải các bài tập LeetCode được cài đặt bằng
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Array, Two Pointers | Medium | [Go](TwoPointer/0015_three_sum.go) | [Test](TwoPointer/0015_three_sum_test.go) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Array, Two Pointers | Medium | [Go](TwoPointer/0016_3sum_closest.go) | [Test](TwoPointer/0016_3sum_closest_test.go) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Array, Two Pointers | Medium | [Go](TwoPointer/0018_4sum.go) | [Test](TwoPointer/0018_4sum_test.go) |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | String, Backtracking | Medium | [Go](String/0022_generate_parentheses.go) | [Test](String/0022_generate_parentheses_test.go) |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Array, Two Pointers | Medium | [Go](TwoPointer/0031_next_permutation.go) | [Test](TwoPointer/0031_next_permutation_test.go) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Array, Binary Search | Medium | [Go](BinarySearch/0033_search_in_rotated_sorted_array.go) | [Test](BinarySearch/0033_search_in_rotated_sorted_array_test.go) |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Array, Matrix, Simulation | Medium | [Go](Array/0054_spiral_matrix.go) | [Test](Array/0054_spiral_matrix_test.go) |
